@@ -2,20 +2,20 @@
 
 html {
   font-family: "Oswald", sans-serif;
-}
+  overflow: hidden;
+} 
 
 body {
   margin: 0 32px;
   overflow: scroll;
-  height:1280px;
+  height:1200px;
+
 }
 
 footer {
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
-  margin-left: 8px;
-  margin-top: 32px;
   z-index: 10;
   background-color:white;
 }
@@ -26,11 +26,10 @@ header {
   position: fixed;
   z-index: 10;
   width: 100%;
-  border-bottom: 1px solid white;
   background-color: white;
 }
 
-header .content {
+header .details {
   display: inline-flex;
   align-items: center;
   padding: 8px;
@@ -151,6 +150,16 @@ header ul li a:hover {
 }
 
 
+#fg2_para2 {
+    position: relative;
+    left: -8px;
+}
+
+#fg1_para3 {
+    position: relative;
+    left: -20px;
+}
+
 /* Text Styles Section Style */
 
 #text_styles_section {
@@ -162,7 +171,6 @@ header ul li a:hover {
 #text_groups {
     display: flex;
     width: 100%;
-    
   }
 
 #text_group_1, #text_group_2, #text_group_3 {
