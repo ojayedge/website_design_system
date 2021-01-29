@@ -1,0 +1,180 @@
+/* Global Style */
+
+html {
+  font-family: "Oswald", sans-serif;
+  overflow: hidden;
+} 
+
+body {
+  margin: 0 32px;
+  overflow: scroll;
+  height:1200px;
+
+}
+
+footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 10;
+  background-color:white;
+}
+
+/* Header Nav Style */
+
+header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: white;
+}
+
+header .details {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px;
+  margin-top: 8px;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+}
+
+header ul li {
+  display: inline-flex;
+  margin: 0 16px;
+}
+
+header ul li a:hover {
+  color: rgba(255, 166, 158, 1);
+}
+
+/* Colour Section Style */
+
+#colours_section {
+  position: relative;
+  top: 120px;
+  padding: 0 8px;
+}
+
+#colours_containers {
+  display: flex;
+  height: 480px;
+  color: white;
+  position: relative;
+}
+
+#colours_containers h3 {
+  position: absolute;
+  bottom: 20px;
+  padding: 16px;
+}
+
+#colours_containers h6 {
+  position: absolute;
+  bottom: 0px;
+  padding: 16px;
+  font-weight: 400;
+}
+
+#colour_1 {
+  background-color: rgba(59, 60, 54, 0.9);
+  width: 100%;
+  margin-left: 4px;
+}
+
+#colour_2 {
+  background-color: rgba(131, 142, 131, 0.9);
+  width: 100%;
+}
+
+#colour_3 {
+  background-color: rgba(255, 166, 158, 0.9);
+  width: 100%;
+  color: black;
+}
+
+#colour_4 {
+  background-color: rgba(201, 206, 189, 0.9);
+  width: 100%;
+  color: black;
+}
+
+#colour_5 {
+  background-color: rgba(0, 253, 220, 0.9);
+  width: 100%;
+  color: black;
+}
+
+#colour_6 {
+  background-color: rgba(128, 255, 236, 0.9);
+  width: 100%;
+  color: black;
+}
+
+#colour_7 {
+  background-color: rgba(181, 255, 225, 0.9);
+  width: 100%;
+  color: black;
+  margin-right: 8px;
+}
+
+/* Fonts Section Style */
+
+#fonts_section {
+  position: relative;
+  top: 144px;
+  padding: 0 8px;
+}
+
+#font_group_1 {
+    position: relative;
+    display:inline-flex;
+    top: -16px;
+}
+
+#font_details_1 p {
+    margin-left: 48px;
+}
+
+#font_group_2 {
+    position: relative;
+    display:inline-flex;
+    top: -16px;
+    font-family: "Roboto", sans-serif
+}
+
+#font_details_2 p {
+    margin-left: 40px;
+}
+
+
+#fg2_para2 {
+    position: relative;
+    left: -8px;
+}
+
+#fg1_para3 {
+    position: relative;
+    left: -20px;
+}
+
+/* Text Styles Section Style */
+
+#text_styles_section {
+  position: relative;
+  top: 160px;
+  padding: 0 8px;
+}
+
+#text_groups {
+    display: flex;
+    width: 100%;
+  }
+
+#text_group_1, #text_group_2, #text_group_3 {
+    position: relative;
+    top: -24px;
+    width: 100%;
+}
